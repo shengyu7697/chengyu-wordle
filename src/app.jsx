@@ -1330,7 +1330,7 @@ export function App() {
           </div>
           <p>{t('howToPlay.spotCorrect')}</p>
           <div class="example-idiom">
-            {'理所当然'.split('').map((letter, i) => (
+            {'理所當然'.split('').map((letter, i) => (
               <Letter
                 key={letter}
                 letter={letter}
@@ -1340,7 +1340,7 @@ export function App() {
           </div>
           <p>{t('howToPlay.spotPresent')}</p>
           <div class="example-idiom">
-            {'爱不释手'.split('').map((letter, i) => (
+            {'愛不釋手'.split('').map((letter, i) => (
               <Letter
                 key={letter}
                 letter={letter}
