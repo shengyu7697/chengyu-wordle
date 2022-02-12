@@ -5,7 +5,7 @@
   },
   "app": {
     "description": "Wordle，用於漢語成語——成語（chéngyǔ）。在 6 次嘗試中猜出成語。",
-    "title": "成語Wordle"
+    "title": "成語 Wordle"
   },
   "common": {
     "choose": "選擇",
@@ -22,10 +22,10 @@
     "wonLost": "🟩 獲勝：<0>{{wonCount}}</0> ‧ 🟧 失敗：<1>{{lostCount}}</1>"
   },
   "debugging": {
-    "clearDB": "清除數據庫",
+    "clearDB": "清除資料庫",
     "confirmClearDB": "你確定嗎？",
     "confirmResetGame": "你確定嗎？",
-    "heading": "調試",
+    "heading": "除錯",
     "resetGame": "重置當前的成語遊戲"
   },
   "feedback": {
@@ -48,7 +48,7 @@
   "howToPlay": {
     "heading": "怎麼玩",
     "how1": "在 6 次嘗試中猜出成語。",
-    "how2": "每個猜測都必須是有效的 4 字母習語。點擊回車按鈕提交。",
+    "how2": "每個猜測都必須是有效的 4 字詞語。點擊 Enter 按鈕送出。",
     "how3": "每次猜測後，圖塊的顏色會發生變化，以顯示您的猜測與成語的接近程度。",
     "how4": "每天都會有一個新的成語出現。",
     "spotAbsent": "灰色 = 不在任何地方",
@@ -57,12 +57,12 @@
   },
   "ui": {
     "confirmRandom": "您確定要開始新的隨機遊戲嗎？",
-    "copiedResults": "將結果複製到剪貼板",
-    "copiedURL": "將 URL 複製到剪貼板",
+    "copiedResults": "將結果複製到剪貼剪貼簿",
+    "copiedURL": "將 URL 複製到剪貼簿",
     "countdownNow": "現在！",
     "gamesPlayed": "📊 玩過的遊戲：<0/>",
     "hardMode": "困難模式 🔥",
-    "hint": "我被困住了",
+    "hint": "來點提示",
     "idiomId": "成語ID:",
     "nextIdiom": "下一個成語：<0/>",
     "playTodayGame": "玩今天的遊戲！",
