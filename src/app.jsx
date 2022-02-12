@@ -1367,6 +1367,7 @@ export function App() {
                       target="_blank"
                     />,
                     <a href="https://powerlanguage.co.uk/" target="_blank" />,
+                    <a href="https://github.com/shengyu7697/" target="_blank" />,
                   ]}
                 />
               </p>
