@@ -644,8 +644,16 @@ export function App() {
   useEffect(() => {
     if (gameState === 'won') {
       setShowModal('won');
+      gtag('event', 'gameState', {
+        'event_category': 'general',
+        'event_label': 'won'
+      });
     } else if (gameState === 'lost') {
       setShowModal('lost');
+      gtag('event', 'gameState', {
+        'event_category': 'general',
+        'event_label': 'lost'
+      });
     } else {
       setShowModal(false);
     }
