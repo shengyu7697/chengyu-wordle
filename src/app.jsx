@@ -644,14 +644,16 @@ export function App() {
   useEffect(() => {
     if (gameState === 'won') {
       setShowModal('won');
+      let gameLevel = currentStep +'/6';
       gtag('event', 'gameState', {
-        'event_category': 'general',
+        'event_category': gameLevel,
         'event_label': 'won'
       });
     } else if (gameState === 'lost') {
       setShowModal('lost');
+      let gameLevel = currentStep +'/6';
       gtag('event', 'gameState', {
-        'event_category': 'general',
+        'event_category': gameLevel,
         'event_label': 'lost'
       });
     } else {
